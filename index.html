@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLFA - Sierra Leone Football Association</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <img
+            src="image/logo.png"
+            alt="SLFA Logo"
+            class="logo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+          />
+          <div class="logo-fallback" style="display: none">
+            <i class="fas fa-futbol"></i>
+            <span>SLFA</span>
+          </div>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="active"
+              ><i class="fas fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="players.html"><i class="fas fa-users"></i> Players</a>
+          </li>
+          <li>
+            <a href="matches.html"><i class="fas fa-trophy"></i> Matches</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+        <div class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge"></div>
+        <h1 class="hero-title">
+          <span class="title-main">WELCOME TO</span>
+          <span class="title-sub"> SIERRA LEONE FOOTBALL ASSOCIATION</span>
+        </h1>
+
+        <div class="hero-buttons">
+          <a href="players.html" class="btn btn-primary">
+            <i class="fas fa-users"></i>
+            Meet Our Players
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main class="container">
+      <section class="featured-section">
+        <div class="section-header">
+          <p>Stay updated with the latest from Sierra Leone Football</p>
+        </div>
+        <div class="featured-grid">
+          <div class="featured-card trending-card">
+            <div class="card-header">
+              <i class="fas fa-trending-up"></i>
+              <h3>Trending News</h3>
+            </div>
+            <div class="card-image">
+              <img
+                src="image/Sierra Leone striker Kei Kamara retires from international football aged 37.jpeg"
+                alt="Trending News"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-newspaper"></i>
+                <span>Trending Image</span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h4>Kia Kamara Retirement</h4>
+              <p>
+                Sierra Leonean football star Kei Kamara has officially announced
+                that he will play his last game for the Leone Stars on October
+                12, 2025, in the national team’s match against Djibouti.
+              </p>
+              <a href="#" class="read-more"
+                >Read More <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="featured-card match-card">
+            <div class="card-header">
+              <i class="fas fa-calendar-alt"></i>
+              <h3>Next Match</h3>
+            </div>
+            <div class="match-details">
+              <div class="match-date">
+                <div class="date-day">15</div>
+                <div class="date-month">MAR</div>
+              </div>
+              <div class="match-teams">
+                <div class="team">
+                  <div class="team-logo">
+                    <img
+                      src="image/logo.png"
+                      alt="Sierra Leone"
+                      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+                    />
+                    <div class="logo-placeholder" style="display: none">
+                      <i class="fas fa-shield-alt"></i>
+                    </div>
+                  </div>
+                  <span class="team-name">Sierra Leone</span>
+                </div>
+                <div class="vs-section">
+                  <span class="vs">VS</span>
+                  <div class="match-time">19:00</div>
+                </div>
+                <div class="team">
+                  <div class="team-logo">
+                    <img
+                      src="image/Ghana.jpeg"
+                      alt="Ghana"
+                      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+                    />
+                    <div class="logo-placeholder" style="display: none"></div>
+                    <i class="fas fa-shield-alt"></i>x
+                  </div>
+                  <span class="team-name">Ghana</span>
+                </div>
+              </div>
+              <div class="match-venue">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>National Stadium, Freetown</span>
+              </div>
+            </div>
+            <a href="matches.html" class="btn btn-primary btn-full">
+              <i class="fas fa-ticket-alt"></i>
+              Get Tickets
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="news-section">
+        <div class="section-header">
+          <h2><i class="fas fa-newspaper"></i> Latest News</h2>
+          <p>
+            Stay informed with the latest updates from Sierra Leone Football
+          </p>
+        </div>
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-image">
+              <img
+                src="images/news1.jpg"
+                alt="News 1"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-image"></i>
+                <img
+                  src="https://alchetron.com/cdn/sierra-leone-national-football-team-1d8ad172-e6ce-4b69-9047-a869d378025-resize-750.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date"
+                  ><i class="fas fa-calendar"></i> NOVEMBER 30,2025.</span
+                >
+                <span class="news-category">Team News</span>
+              </div>
+              <h3>
+                BO RANGERS TO HOST STAR SPORT ACADEMY IN PRE-SEASON FRIENDLY
+              </h3>
+              <p>
+                ON THURSDAY THE STAR SPORT ACADEMY WILL ON THE BO RANGERS IN AN
+                EXHILARATINGRE TRAINING MATCH AS BOTH TEAMS PERPARE FOR THE
+                UPCOMING 2025/2026 SIERRA LEONE PREMIER LEAGUE SEASON.
+              </p>
+              <a href="#" class="read-more"
+                >Read Full Story <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-image">
+              <img
+                src="https://owlpress-sl.com/wp-content/uploads/2024/04/SLFA-Pitch.jpg"
+                alt="News 2"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-P s" style="display: none">
+                <i class="fas fa-image"></i>
+                <span>News Image</span>
+              </div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date"
+                  ><i class="fas fa-calendar"></i> March 8, 2025</span
+                >
+                <span class="news-category">Youth</span>
+              </div>
+              <h3>Youth Academy Expansion</h3>
+              <p>
+                SLFA announces major expansion of youth development programs to
+                nurture the next generation of football talent.
+              </p>
+              <a href="#" class="read-more"
+                >Read Full Story <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-image">
+              <img
+                src="https://footballarroyo.co.uk/wp-content/uploads/2022/12/Sierra-Leone-National-Football-Team-Squad-Players-Stadium-Kits-and-much-more-1536x963.jpg"
+                alt="News 3"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-image"></i>
+                <span>News Image</span>
+              </div>
+            </div>
+            <div class="news-content">
+              <div class="news-meta">
+                <span class="news-date"
+                  ><i class="fas fa-calendar"></i> March 5, 2025</span
+                >
+                <span class="news-category">International</span>
+              </div>
+              <h3>International Friendly Announced</h3>
+              <p>
+                Sierra Leone to face Nigeria in a high-profile international
+                friendly match as preparation for upcoming tournaments.
+              </p>
+              <a href="#" class="read-more"
+                >Read Full Story <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="highlights-section">
+        <div class="section-header">
+          <h2><i class="fas fa-play-circle"></i> Match Highlights</h2>
+          <p>Relive the best moments from recent matches</p>
+        </div>
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-image">
+              <img
+                src="https://www.switsalone.com/wp-content/uploads/2023/06/354632522_298934619142822_8993686307279445519_n.jpg"
+                alt="Highlight 1"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-play-circle"></i>
+                <span>Match Highlight</span>
+              </div>
+              <div class="play-overlay">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="highlight-content">
+              <h4>Sierra Leone vs Liberia</h4>
+              <p>Best moments from the 3-1 victory</p>
+              <span class="highlight-duration"
+                ><i class="fas fa-clock"></i> 5:32</span
+              >
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-image">
+              <img
+                src="https://sierraloaded.sl/wp-content/uploads/2022/10/Leone-Stars-U23-Training-.jpg"
+                alt="Highlight 2"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-play-circle"></i>
+                <span>Match Highlight</span>
+              </div>
+              <div class="play-overlay">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="highlight-content">
+              <h4>Training Session</h4>
+              <p>Behind the scenes preparation</p>
+              <span class="highlight-duration"
+                ><i class="fas fa-clock"></i> 3:45</span
+              >
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-image">
+              <img
+                src="https://i0.wp.com/footballsierraleone.net/wp-content/uploads/2022/04/Kei-Kamara-retires-from-Int-football.jpg?resize=1080%2C567&ssl=1"
+                alt="Highlight 3"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"
+              />
+              <div class="image-placeholder" style="display: none">
+                <i class="fas fa-play-circle"></i>
+                <span>Match Highlight</span>
+              </div>
+              <div class="play-overlay">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="highlight-content">
+              <h4>Goal Compilation</h4>
+              <p>Top goals from this season</p>
+              <span class="highlight-duration"
+                ><i class="fas fa-clock"></i> 7:21</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quick-links-section">
+        <div class="section-header">
+          <h2><i class="fas fa-link"></i> Quick Access</h2>
+          <p>Everything you need to know about Sierra Leone Football</p>
+        </div>
+        <div class="quick-links-grid">
+          <a href="players.html" class="quick-link-card">
+            <div class="quick-link-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Our Players</h3>
+            <p>Meet the talented athletes representing Sierra Leone</p>
+            <span class="link-arrow"><i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="matches.html" class="quick-link-card">
+            <div class="quick-link-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>Match Schedule</h3>
+            <p>View upcoming fixtures and match results</p>
+            <span class="link-arrow"><i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="about.html" class="quick-link-card">
+            <div class="quick-link-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h3>About SLFA</h3>
+            <p>Learn about our mission and football development</p>
+            <span class="link-arrow"><i class="fas fa-arrow-right"></i></span>
+          </a>
+          <a href="contact.html" class="quick-link-card">
+            <div class="quick-link-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Get in Touch</h3>
+            <p>Contact us for inquiries and support</p>
+            <span class="link-arrow"><i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="fas fa-futbol"></i>
+            <span>SLFA</span>
+          </div>
+          <p>
+            Sierra Leone Football Association - Developing football excellence
+            since 1967
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="matches.html">Matches</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <div class="contact-info">
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Kingtom, Freetown, Sierra
+              Leone
+            </p>
+            <p><i class="fas fa-phone"></i> +232 XX XXX XXXX</p>
+            <p><i class="fas fa-envelope"></i> info@slfa.sl</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Sierra Leone Football Association. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
